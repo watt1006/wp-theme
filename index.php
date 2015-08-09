@@ -23,7 +23,6 @@
 						<div class="post-content image-caption-format-1">
 							<?php echo excerpt(15);?>
 						</div>
-						<div class="readMore"><a href="<?php the_permalink() ?>" title="<?php the_title(); ?>" rel="bookmark"><?php _e('Read More','mythemeshop'); ?></a></div>
 					</div><!--.post excerpt-->
 				<?php endwhile; else: ?>
 					<div class="post excerpt">
